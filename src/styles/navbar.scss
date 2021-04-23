@@ -1,0 +1,124 @@
+.Navbar {
+  position: relative;
+  .navbar__items {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 26px 30px;
+    justify-content: space-between;
+    position: relative;
+    z-index: 3;
+  }
+  .remove-shadow {
+    box-shadow: none;
+  }
+
+  h2 {
+    color: #1a355e;
+    margin-left: 25px;
+    font-weight: 700;
+  }
+  .menu {
+    display: flex;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: -320px;
+    left: 0;
+    height: 320px;
+    width: 100%;
+    background-color: rgb(238, 234, 234);
+    z-index:2;
+  }
+  .chevron1 {
+    display: flex;
+  }
+
+  .dropdown-chevron1 {
+    position: absolute;
+    top: -300px;
+    left: 0;
+    height: 90%;
+    width: 100%;
+    background-color: white;
+  }
+  .chevron2 {
+    display: flex;
+  }
+
+  .dropdown-chevron2 {
+    position: absolute;
+    top: -300px;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    background-color: white;
+  }
+  .chevron3 {
+    display: flex;
+  }
+
+  .dropdown-chevron3 {
+    position: absolute;
+    top: -300px;
+    left: 0;
+    height: 90%;
+    width: 100%;
+    background-color: white;
+  }
+
+  .open {
+    top: 72px;
+    box-shadow: 0px 2px 15px 10px rgba(0, 0, 0, 0.1);
+  }
+  .open1 {
+    top: 50px;
+    box-shadow: 0px 2px 15px 10px rgba(0, 0, 0, 0.1);
+  }
+  .open2 {
+    top: 100px;
+    box-shadow: 0px 2px 15px 10px rgba(0, 0, 0, 0.1);
+  }
+  .open3 {
+    top: 200px;
+    box-shadow: 0px 2px 15px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .listitem {
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
+    background-color: rgba(238, 234, 234, 0.541);
+  }
+  
+  .portal {
+      display: flex;
+      justify-content: space-between;
+      height: 15%;
+      background-color: #F68B1E;
+      h3 {
+          color: white;
+        }
+    }
+    
+    .sublist {
+      display: flex;
+      justify-content: space-between;
+      margin: 28px 15px;
+      color: #05A6DF;
+      font-weight: 500;
+    }
+    .about {
+    margin: 15px 15px;
+  }
+
+  h3 {
+    color: #1d345e;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+}
